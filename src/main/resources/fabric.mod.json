@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "spotifyhud",
+  "version": "${version}",
+  "name": "Spotify HUD",
+  "description": "Customizable in-game Spotify now-playing HUD with playback controls.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.spotifyhud.SpotifyHudMod"] },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
